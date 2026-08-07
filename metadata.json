@@ -1,0 +1,8 @@
+{
+  "name": "MyDiby",
+  "description": "Aplikasi pembuat dan pengelola database perusahaan/kontak interaktif desktop & mobile dengan AI image scanner, text parser, import & export JSON, SQL, CSV & Text.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

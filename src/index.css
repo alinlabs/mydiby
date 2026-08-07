@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+::selection {
+  background-color: #059669 !important;
+  color: #ffffff !important;
+}
+
+/* Prevent mobile browser auto-zoom on input focus (iOS Safari zooms if font-size < 16px) */
+@media screen and (max-width: 768px) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}
+
+html, body {
+  touch-action: manipulation;
+  -webkit-text-size-adjust: 100%;
+}

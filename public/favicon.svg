@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#ecfdf5" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#064e3b" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Rectangle -->
+  <rect x="32" y="32" width="448" height="448" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Inner Subtle Border -->
+  <rect x="32" y="32" width="448" height="448" rx="112" fill="none" stroke="#6ee7b7" stroke-width="6" stroke-opacity="0.3" />
+
+  <g filter="url(#shadow)">
+    <!-- Database Stack -->
+    <path d="M156 160 C156 138, 356 138, 356 160 C356 182, 156 182, 156 160 Z" fill="url(#iconGrad)"/>
+    <path d="M156 160 V220 C156 242, 356 242, 356 220 V160 C356 182, 156 182, 156 160 Z" fill="url(#iconGrad)" opacity="0.9" />
+    <path d="M156 220 V280 C156 302, 356 302, 356 280 V220 C356 242, 156 242, 156 220 Z" fill="url(#iconGrad)" opacity="0.8" />
+    <path d="M156 280 V340 C156 362, 356 362, 356 340 V280 C356 302, 156 302, 156 280 Z" fill="url(#iconGrad)" opacity="0.95" />
+
+    <!-- AI Sparkle Icon Top Right -->
+    <path d="M360 120 L370 145 L395 155 L370 165 L360 190 L350 165 L325 155 L350 145 Z" fill="#fef08a" />
+  </g>
+</svg>
